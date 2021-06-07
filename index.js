@@ -23,5 +23,11 @@ class Triangle extends Polygon {
   }
 }
 
+class Square extends Polygon {
+  get isValid() {
+    if (this.countSides )
+  }
+}
+
 const res = new Triangle([3,2,2]).isValid
 console.log(res)
