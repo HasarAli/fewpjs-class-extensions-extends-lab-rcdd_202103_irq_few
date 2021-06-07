@@ -14,5 +14,11 @@ class Polygon {
   }
 }
 
-const res = new Polygon([1,2,3]).perimeter
+class Triangle extends Polygon {
+  constructor(sides) {
+    super(sides)
+  }
+}
+
+const res = new Triangle([1,2,3]).perimeter
 console.log(res)
