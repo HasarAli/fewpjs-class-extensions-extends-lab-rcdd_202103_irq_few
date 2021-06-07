@@ -15,7 +15,10 @@ class Polygon {
 }
 
 class Triangle extends Polygon {
-  // 
+  get isValid() {
+    if (this.countSides !== 3) return false
+    return true
+  }
 }
 
 const res = new Triangle([1,2,3]).perimeter
