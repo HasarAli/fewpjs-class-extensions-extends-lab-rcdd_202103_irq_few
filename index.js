@@ -23,5 +23,5 @@ class Triangle extends Polygon {
   }
 }
 
-const res = new Triangle([1,2,2]).isValid
+const res = new Triangle([3,2,2]).isValid
 console.log(res)
