@@ -10,7 +10,7 @@ class Polygon {
   }
   
   get perimeter() {
-    return this.sides.reduce(perimeter, (side => perimeter += side))
+    return this.sides.reduce(perimeter, (side => perimeter + side))
   }
 }
 
