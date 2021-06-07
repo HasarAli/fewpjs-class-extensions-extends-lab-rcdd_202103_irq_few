@@ -17,9 +17,9 @@ class Polygon {
 class Triangle extends Polygon {
   get isValid() {
     if (this.countSides !== 3) return false
-    return this.side[0] + this.side[1] <= this.side[2] 
-      && this.side[0] + this.side[2] <= this.side[1]
-      && this.side[1] + this.side[2] <= this.side[0]
+    return this.sides[0] + this.sides[1] <= this.sides[2] 
+      && this.sides[0] + this.sides[2] <= this.sides[1]
+      && this.sides[1] + this.sides[2] <= this.sides[0]
   }
 }
 
