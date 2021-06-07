@@ -14,5 +14,5 @@ class Polygon {
   }
 }
 
-const res = new Polygon([1,2,3]).countSides
+const res = new Polygon([1,2,3]).perimeter
 console.log(res)
