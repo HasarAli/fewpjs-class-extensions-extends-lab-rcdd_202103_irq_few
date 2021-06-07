@@ -17,11 +17,7 @@ class Polygon {
 class Triangle extends Polygon {
   get isValid() {
     if (this.countSides !== 3) return false
-    for (let i = 0; i < this.countSides; i++) {
-      for (let j = i+1; i < this.countSides; j++) {
-        if (this.sides[i] + this.sides[j])
-      }
-    }
+    
     return true
   }
 }
