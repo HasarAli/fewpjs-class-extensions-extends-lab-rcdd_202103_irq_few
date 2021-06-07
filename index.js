@@ -30,6 +30,10 @@ class Square extends Polygon {
       && this.sides[1] == this.sides[2]
       && this.sides[2] == this.sides[3]
   }
+  
+  get area() {
+    return this.sides[0] * this.sides[0]
+  }
 }
 
 const res = new Triangle([3,2,2]).isValid
