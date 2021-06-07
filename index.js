@@ -21,5 +21,5 @@ class Triangle extends Polygon {
   }
 }
 
-const res = new Triangle([1,2,3]).perimeter
+const res = new Triangle([1,2,3]).isValid
 console.log(res)
